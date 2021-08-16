@@ -1,11 +1,10 @@
 import React from "react";
-import Footer from '../components/footer'
+import Layout from "../components/layout";
 const BlogPage = () =>{
     return(
-        <div>
+        <Layout>
             <h1>Hey Blog</h1>
-            <Footer/>
-        </div>
+        </Layout>
     )
 }
 
